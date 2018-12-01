@@ -1,0 +1,21 @@
+ <script>
+          var num_tickles = 0;
+
+	   function send_a_message(){
+		   alert("You tickled me "+num_tickles+" times! Stop it!");
+         	   num_tickles = num_tickles + 1;
+	   }
+   </script>
+
+
+<div style="text-align:center"><h1 style="color:red">Reading GWC</h1></div>
+
+This is a <font color=green>where we learn HTML</font>.
+<p>
+  This is a cute puppy: <img 
+  height=100
+  src=https://cdn.images.express.co.uk/img/dynamic/128/590x/secondary/Cute-puppy-pictures-science-why-adorable-puppies-1355345.jpg>
+  <p>
+    This is our <a href=http://www.readinggwc.org/>official page</a>.
+
+    <button onclick="send_a_message()">Click me!!</button>
